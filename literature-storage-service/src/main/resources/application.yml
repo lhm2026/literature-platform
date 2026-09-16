@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: literature-storage-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        import-check:
+          enabled: false
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: your-rabbitmq-password
+    publisher-confirm-type: correlated
+    publisher-returns: true
+  servlet:
+    multipart:
+      max-file-size: 50MB
