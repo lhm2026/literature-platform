@@ -15,7 +15,7 @@
 - literature-core-service：向量生成、Milvus检索、RAG问答接口
 
 ## 🛠️ 技术栈
-Java 17 | Spring Cloud | SpringAI | Apache Tika | Milvus | RabbitMQ | Redis | Redisson | Maven
+Java 21 | Spring Cloud | SpringAI | Apache Tika | Milvus | RabbitMQ | Redis | Redisson | Maven
 
 ## 🚀 快速启动
 1. 启动Milvus、Redis、RabbitMQ
